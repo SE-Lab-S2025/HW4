@@ -48,4 +48,9 @@ public class CalculatorStepdefs {
     public void theResultShouldBe(double expectedResult) {
         assertEquals(expectedResult, result, 0.001);
     }
+
+    @Then("the result should be Infinity")
+    public void theResultShouldBeInfinity() {
+        assertEquals(Double.POSITIVE_INFINITY, result, 0.0);
+    }
 }
