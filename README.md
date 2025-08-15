@@ -22,10 +22,15 @@
 ---
 
 ## 3. وابستگی‌ها (Dependencies)
-- **Java**: نسخه 20 یا بالاتر (پیکربندی شده با `maven.compiler.release`)
-- **Maven**: ابزار ساخت و مدیریت وابستگی‌ها
-- **JUnit 4.13.2**: فریم‌ورک تست
-- **Cucumber-JUnit 7.20.1** و **Cucumber-Java 7.20.1**: برای تست مبتنی بر BDD
+
+<div dir="rtl">
+
+  - **Java**: نسخه 20 یا بالاتر (پیکربندی شده با `maven.compiler.release`)
+  - **Maven**: ابزار ساخت و مدیریت وابستگی‌ها
+  - **JUnit 4.13.2**: فریم‌ورک تست
+  - **Cucumber-JUnit 7.20.1** و **Cucumber-Java 7.20.1**: برای تست مبتنی بر BDD
+
+</div>
 
 ---
 
