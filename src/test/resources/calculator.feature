@@ -13,15 +13,15 @@ Feature: Calculator
       | first_number | second_number | operator | result |
       | 10           | 5             | +        | 15.0   |
       | 10           | 5             | -        | 5.0    |
-      | 10           | 5             | * | 50.0   |
+      | 10           | 5             | *        | 50.0   |
       | 10           | 5             | /        | 2.0    |
 
     Examples: Edge Cases and Negative Numbers
       | first_number | second_number | operator | result   |
       | 10           | 0             | /        | Infinity |
       | 5            | 0             | +        | 5.0      |
-      | 5            | 0             | * | 0.0      |
-      | -10          | 5             | * | -50.0    |
+      | 5            | 0             | *        | 0.0      |
+      | -10          | 5             | *        | -50.0    |
       | -10          | -5            | +        | -15.0    |
       | 10           | -5            | -        | 15.0     |
 
